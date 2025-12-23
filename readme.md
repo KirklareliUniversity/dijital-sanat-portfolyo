@@ -66,3 +66,5 @@ dijital-sanat-portfolyo/
 * **XSS Koruması:** htmlspecialchars() ile tüm veriler arındırılır.
 * **Veri Bütünlüğü:** Kategori silindiğinde eserlerin kategori ID'si otomatik NULL yapılarak veri kaybı önlenir.
 * **Hafıza Yönetimi:** Silinen her eserin görseli sunucu diskinden de fiziksel olarak kaldırılarak disk doluluğu önlenir.
+
+-**Buğsenur Gençer**
