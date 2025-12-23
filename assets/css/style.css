@@ -1,0 +1,68 @@
+/* Genel Ayarlar ve Reset */
+body {
+    background-color: #121212; /* Koyu Tema Ana Rengi */
+    color: #e0e0e0; /* Açık Yazı Rengi */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar ve Sidebar (Yönetim Paneli) */
+.navbar, .sidebar {
+    background-color: #181818 !important; /* Daha Koyu Menü Arka Planı */
+    border-bottom: 1px solid #282828;
+}
+.sidebar {
+    border-right: 1px solid #282828;
+}
+.sidebar a {
+    color: #adb5bd;
+    transition: all 0.2s ease;
+}
+.sidebar a:hover, .sidebar a.active {
+    background-color: #282828 !important;
+    color: #f9d342 !important; /* Vurgu Rengi */
+}
+
+/* Kartlar ve Konteynerler */
+.card, .login-container {
+    background-color: #1f1f1f;
+    border: 1px solid #282828;
+    color: #e0e0e0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Derinlik Kat */
+}
+
+/* Başlıklar ve Vurgu */
+.h2, .h4, h1 {
+    color: #f9d342; /* Vurgu Rengi */
+}
+.card-title {
+    color: #e0e0e0;
+}
+
+/* Butonlar (Vurgu) */
+.btn-primary, .btn-success {
+    background-color: #f9d342;
+    border-color: #f9d342;
+    color: #121212 !important; /* Koyu Yazı */
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+.btn-primary:hover, .btn-success:hover {
+    background-color: #e0b82b;
+    border-color: #e0b82b;
+}
+.btn-info {
+    background-color: #4CAF50 !important; /* Edit için farklı bir renk */
+    border-color: #4CAF50 !important;
+}
+
+/* Frontend Galeri Görünümü */
+.header-content {
+    background: linear-gradient(rgba(18,18,18,0.8), rgba(18,18,18,0.8)), url('../assets/img/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.card-footer {
+    background-color: #181818;
+    border-top: 1px solid #282828;
+}
